@@ -1,0 +1,71 @@
+body {
+    background-color:rgb(228, 163, 107);
+    font-family: Arial;
+    color:rgb(89, 119, 59);
+    font-size: 30px;
+}
+
+.amazing{
+    font-size: 40px ;
+    color: darkgoldenrod;
+}
+
+.short{
+    color:darkcyan;
+}
+
+/* h1{
+    color: darkslategray;
+    font-family:monospace;
+    font-size: 50px;
+    font-style: italic;
+} */
+
+h2{
+    color:seagreen;
+
+}
+
+/* p{
+    color:bisque;
+    font-family: cursive;
+    font-weight: bold;
+
+} */
+
+p{
+    font-size: 30px;
+    color:greenyellow;
+}
+
+#hello{
+    color: darkmagenta;
+    font-size: 15px;
+}
+
+input{
+    width: 100%;
+}
+
+button{
+    border: 2px solid black;
+    background-color:lavender;
+    color:chocolate ;
+    font-weight: bolder;
+}
+
+input[type="text"]{
+    width: 100%;
+}
+
+input[type="password"]{
+    width: 50%;
+    border: 5px solid red;
+}
+
+table{
+    border-color: tomato;
+    background-color: tan;
+    color: teal;
+}
+

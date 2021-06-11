@@ -1,0 +1,86 @@
+/* FLEX BOX CSS */
+
+body{
+    background-color: black;
+    padding: 200px;
+}
+
+.parent{
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+
+}
+
+.child{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+}
+
+.child2{
+    background-color: greenyellow;
+    width: 200px;
+    height: 350px;
+
+}
+
+
+
+/* 
+
+mobile -> green
+tablet -> blue
+laptop -> red
+PC-> brown
+
+!!!! Mobile-first approach !!!! :
+
+*/
+
+
+/*  bootstrap breakpoints ::: 
+
+MOBILE-> 0-767
+TABLET -> 768PX
+LAPTOP-> 1020 PX
+PC-> 1400PX
+
+*/
+
+/*
+
+body{
+    background-color: green;
+}
+
+@media (min-width: 768px){
+    
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1020px){
+    body{
+        background-color: red;
+    }
+}
+
+@media (min-width: 1400px){
+    body{
+        background-color: orange;
+    }
+}
+
+*/
+
+
